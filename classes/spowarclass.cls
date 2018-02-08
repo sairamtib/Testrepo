@@ -1,4 +1,4 @@
-
+/*pass 2 comment lines */ 
 /*pass 1 comment lines */ 
 public class spowarclass {
     public static List<spowarobject__c> spowarmethod(){

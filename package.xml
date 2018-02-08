@@ -6,7 +6,8 @@
         <members>spowartestclasssuccess</members>
         <name>ApexClass</name>
     </types>
-      <types>
+    <types>
+        <members>Rashmifield__c</members>
         <members>spowarobject__c</members>
         <name>CustomObject</name>
     </types>
