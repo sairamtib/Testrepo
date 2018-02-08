@@ -1,11 +1,15 @@
 public class spowarclass {
     public static List<spowarobject__c> spowarmethod(){
+    /* This is a
+           multi line
+           comment
+         */
        List<spowarobject__c> spowarrows = [SELECT Id, spowarfield__c FROM spowarobject__c ];
         if (spowarrows[0].spowarfield__c == 'testing') {
             spowarrows[0].spowarfield__c = 'failed';            
             spowarrows[0].spowarfield__c = 'junk';
             spowarrows[0].spowarfield__c = 'failed';
         }
-	   return spowarrows;
-	}
+       return spowarrows;
+    }
 }
