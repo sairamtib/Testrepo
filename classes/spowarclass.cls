@@ -1,6 +1,7 @@
-/*pass 2 comment lines */ 
-/*pass 1 comment lines */
-/*pass 3 comment lines */  
+/*pass 1 comment lines */ 
+/*pass 2 comment lines */
+/*pass 3 comment lines */
+/*pass 4 comment lines */    
 public class spowarclass {
     public static List<spowarobject__c> spowarmethod(){
        List<spowarobject__c> spowarrows = [SELECT Id, spowarfield__c FROM spowarobject__c ];
