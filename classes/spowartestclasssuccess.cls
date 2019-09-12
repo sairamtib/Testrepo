@@ -1,3 +1,5 @@
+/*pass 2 comment lines */ 
+/*pass 1 comment lines */ 
 @isTest
 private class spowartestclasssuccess {
     static testMethod void testspowarmethod() {
